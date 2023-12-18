@@ -38,7 +38,7 @@
                 "Vietstars\\ClientDetect\\ClientServiceProvider"
             ],
             "aliases": {
-                "client": "Vietstars\\ClientDetect\\Facades\\Client"
+                "Client": "Vietstars\\ClientDetect\\Facades\\Client"
             }
         }
     },
