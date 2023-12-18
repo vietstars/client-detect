@@ -35,10 +35,10 @@
         },
         "laravel": {
             "providers": [
-                "Vietstars\\ClientDetect\\AgentServiceProvider"
+                "Vietstars\\ClientDetect\\ClientServiceProvider"
             ],
             "aliases": {
-                "Agent": "Vietstars\\ClientDetect\\Facades\\Agent"
+                "client": "Vietstars\\ClientDetect\\Facades\\Client"
             }
         }
     },
