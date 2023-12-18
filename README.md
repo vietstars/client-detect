@@ -22,7 +22,7 @@ Vietstars\ClientDetect\ClientServiceProvider::class,
 And add the Client alias to `config/app.php`:
 
 ```php
-'Client' => Vietstars\ClientDetect\Facades\Client::class,
+'client' => Vietstars\ClientDetect\Facades\Client::class,
 ```
 
 Basic Usage
