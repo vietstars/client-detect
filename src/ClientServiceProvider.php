@@ -19,10 +19,10 @@ class ClientServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('client', function ($app) {
-            return new Agent($app['request']->server());
+            return new Client($app['request']->server());
         });
 
-        $this->app->alias('client', Agent::class);
+        $this->app->alias('client', Client::class);
     }
 
     /**
@@ -32,6 +32,6 @@ class ClientServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['client', Agent::class];
+        return ['client', Client::class];
     }
 }
